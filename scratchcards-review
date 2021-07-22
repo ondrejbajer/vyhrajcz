@@ -26,9 +26,12 @@
           "worstRating": "0"
           },
         "author": {
-          "@type": "Person",
-          "name": "Vyhraj.cz"
-        }
+		    "@type": "Organization",
+			 "name": "Vyhraj.cz",
+			 "url": "https://vyhraj.cz/",
+			 "logo": "<ZDE BUDE LOGO WEBU>",
+			 "foundingDate": "2015-09-14T12:30:48+0000"
+		    },
       },
       "aggregateRating": {
           "@type": "AggregateRating",
