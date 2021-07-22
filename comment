@@ -1,0 +1,8 @@
+<nejaký_div_komentáře itemprop="comment" itemscope itemtype="http://schema.org/Comment">
+	<div kde je napsaný autor komentáře itemprop="author" itemscope itemtype="http://schema.org/Person">
+    	<span nebo div se jmenem itemprop="name">Michael Párek</span>
+    </div>
+          
+    <time nebo cass kde je datum publikace komentu datetime="2021-06-13T08:25:15+02:00" itemprop="datePublished">13. 6. 2021, 06:25</time>
+    <div kde buded text komentáře itemprop="text"><p>TO je paráda doporučuji!</p></>
+    </nejaký_div_komentáře>
