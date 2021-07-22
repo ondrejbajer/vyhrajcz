@@ -29,3 +29,49 @@
                   }
                 }
                </script>
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "<CF: Lottery name>",
+      "image": "<CF: Lottery logo (URL)>",
+      "description": "<CF: Perex>",
+      "sameAs": "<CF: URL>",
+      "brand": {
+        "@type": "Brand",
+        "name": "<Taxonomy (name) přiřazeného provozovatele>"
+      },
+      "review": {
+        "@type": "Review",
+        "datePublished": "<DATUM VYTVOŘENÍ CPT Loterie>",
+         "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE CPT Loterie>",
+         "commentCount": "<Počet komentářů u loterky>",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "<CF: Our rating>",
+          "bestRating": "100",
+          "worstRating": "0"
+          },
+        "author": {
+          "@type": "Person",
+          "name": "Vyhraj.cz"
+        }
+      },
+      "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "<Hodnocení u hvězdiček>",
+          "ratingCount": "<Počet hodnocení u hvězdiček>",
+          "bestRating": "100",
+          "worstRating": "0"
+          },
+      "offers": {
+        "@type": "Offer",
+        "url": "<CF: URL>",
+        "priceCurrency": "Přiřazená taxonomy currency (name)",
+        "price": "<CF: Price for one row>",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock" //Poku je CF: LOTTERY ENDED (yes), tak dáme "https://schema.org/OutOfStock"
+      }
+    }
+    </script>
