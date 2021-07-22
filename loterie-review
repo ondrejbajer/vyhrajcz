@@ -20,8 +20,8 @@
                   "reviewRating": {
                     "@type": "Rating",
                     "ratingValue": "<CF: OHodnocení dle hvězdiček>",
-                    "bestRating": "<Nejlepší hoddnocení podle hvězdiček dole>"
-                    "worstRating": "<nejhorší hodnocení podle hvězdiček dole>"
+                    "bestRating": "100",
+                    "worstRating": "0"
                   },
                   "publisher": {
                     "@type": "Organization",
