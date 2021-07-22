@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{ "@context": "https://schema.org", 
+ "@type": "NewsArticle",
+ "headline": "<ARTICLE NAME>",
+ "image": "<FEATURED IMAGE>",
+ "datePublished": "DATUM PUBLIKOVÁNÍ ČLÁNKU>",
+ "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE ČLÁNKU>",
+ "author": "<AUTOR NAME>",  
+  "mainEntityOfPage": "<URL ČLÁNKU>",
+  "commentCount": "<POČET KOMENTÁŘŮ U ČLÁNKU>",
+"publisher": {
+    "@type": "Organization",
+    "name": "Vyhraj.cz",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "<ZDE BUDE LOGO WEBU>"
+    }
+  }
+ }
+</script>
