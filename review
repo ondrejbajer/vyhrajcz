@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+                  {
+                    "@context": "https://schema.org/",
+                    "@type": "Review",
+                    "reviewBody": "<CF: Review summary>",
+                    "datePublished": "<DATUM VYTVOŘENÍ RECENZE CASINA>",
+                    "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE RECENZE CASINA>",
+                    "sameAs": "<CF: Website URL>",
+                    "commentCount": "<Počet komentářů u review>",
+                  "itemReviewed": {
+                    "@type": "Organization",
+                    "name": "<CF: Company name - detail>",
+                    "logo": "<CF: Logo>",
+                    "description": "<CF: Review summary>"
+                  },
+                  "author": {
+                    "@type": "Person",
+                    "name": "vyhraj.cz"
+                  },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "<CF: Overall rating>",
+                    "bestRating": "100"
+                    "worstRating": "0"
+                  },
+                  "publisher": {
+                    "@type": "Organization",
+                    "name": "Vyhraj.cz"
+                  }
+                }
+               </script>
