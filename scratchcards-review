@@ -1,31 +1,50 @@
 <script type="application/ld+json">
-                  {
-                    "@context": "https://schema.org/",
-                    "@type": "Review",
-                    "reviewBody": "<CF: Perex>",
-                    "datePublished": "<DATUM VYTVOŘENÍ CPT Loterie>",
-                    "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE CPT stírací los>",
-                    "sameAs": "<CF: URL losu>",
-                    "commentCount": "<Počet komentářů u losu>",
-                  "itemReviewed": {
-                    "@type": "Organization",
-                    "name": "<CF: Scratchcard name>",
-                    "logo": "<CF: Featured image - nonscratched>",
-                    "description": "<CF: Perex>"
-                  },
-                  "author": {
-                    "@type": "Person",
-                    "name": "vyhraj.cz"
-                  },
-                  "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "<CF: OHodnocení dle hvězdiček>",
-                    "bestRating": "100",
-                    "worstRating": "0"
-                  },
-                  "publisher": {
-                    "@type": "Organization",
-                    "name": "Vyhraj.cz"
-                  }
-                }
-               </script>
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "<Scratch card name>",
+      "image": [ //Pokud není nahraný ani jeden img tak skipujmeme
+        "<CF: URL: Featured image - nonscratched>", //Jen pokud je
+        "<CF: URL: Featured image - scratched>", //Jen pokud je
+        "<CF: URL: Wining symbol/s image>", //Jen pokud je
+       ],
+      "description": "<CF: Perex>",
+      "sameAs": "<CF: URL losu>",
+      "brand": {
+        "@type": "Brand",
+        "name": "<Taxonomy (name) přiřazeného provozovatele>"
+      },
+      "review": {
+        "@type": "Review",
+        "datePublished": "<DATUM VYTVOŘENÍ CPT ScratchCard>",
+         "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE CPT ScratchCard>",
+         "commentCount": "<Počet komentářů u losu>",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "<CF: Our rating>",
+          "bestRating": "100",
+          "worstRating": "0"
+          },
+        "author": {
+          "@type": "Person",
+          "name": "Vyhraj.cz"
+        }
+      },
+      "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "<Hodnocení u hvězdiček>",
+          "ratingCount": "<Počet hodnocení u hvězdiček>",
+          "bestRating": "100",
+          "worstRating": "0"
+          },
+      "offers": {
+        "@type": "Offer",
+        "url": "<CF: URL losu>",
+        "priceCurrency": "Přiřazená taxonomy currency (name)",
+        "price": "<CF: Price>",
+        "priceValidUntil": "<CF: End of sale>",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock" //Poku je vyprodaný, tak dáme "https://schema.org/OutOfStock"
+      }
+    }
+    </script>
