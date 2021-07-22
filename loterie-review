@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+                  {
+                    "@context": "https://schema.org/",
+                    "@type": "Review",
+                    "reviewBody": "<CF: Perex>",
+                    "datePublished": "<DATUM VYTVOŘENÍ CPT Loterie>",
+                    "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE CPT loterie>",
+                    "sameAs": "<CF: URL>",
+                    "commentCount": "<Počet komentářů u loterie>",
+                  "itemReviewed": {
+                    "@type": "Organization",
+                    "name": "<CF: lOttery name>",
+                    "logo": "<CF: Lottery logo>",
+                    "description": "<CF: Perex>"
+                  },
+                  "author": {
+                    "@type": "Person",
+                    "name": "vyhraj.cz"
+                  },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "<CF: OHodnocení dle hvězdiček>",
+                    "bestRating": "<Nejlepší hoddnocení podle hvězdiček dole>"
+                    "worstRating": "<nejhorší hodnocení podle hvězdiček dole>"
+                  },
+                  "publisher": {
+                    "@type": "Organization",
+                    "name": "Vyhraj.cz"
+                  }
+                }
+               </script>
