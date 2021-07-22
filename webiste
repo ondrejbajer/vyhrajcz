@@ -5,13 +5,6 @@
 		"url": "https://vyhraj.cz/",
 		"name": "Vyhraj.cz",
 		"description": "Vše co potřebujete vědět o hazardních a loterijních hrách online na jednom místě. Komunitní web pro vášnivé hráče.",
-		"author": {
-			"@type": "Organization",
-			"name": "Vyhraj.cz",
-			"url": "https://vyhraj.cz/",
-			"logo": "<ZDE BUDE LOGO WEBU>",
-			"foundingDate": "2015-09-14T12:30:48+0000"
-		},
 		"publisher": {
 			"@type": "Thing",
 			"name": "Vyhraj.cz"
