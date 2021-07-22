@@ -5,7 +5,13 @@
  "image": "<FEATURED IMAGE>",
  "datePublished": "DATUM PUBLIKOVÁNÍ ČLÁNKU>",
  "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE ČLÁNKU>",
- "author": "<AUTOR NAME>",  
+ "author": {
+			"@type": "Person",
+			"name": "<Jméno Příjmení autora>",
+			"url": "<URL archiv page autora>",
+			"image": "<Zde bude image autora>", //Pokud má jinak skipneme)
+   "description": "<Zde bio autora>" //Pokud má jinak skipneme)
+		              },  
   "mainEntityOfPage": "<URL ČLÁNKU>",
   "commentCount": "<POČET KOMENTÁŘŮ U ČLÁNKU>",
 "publisher": {
