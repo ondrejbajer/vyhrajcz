@@ -2,14 +2,14 @@
                   {
                     "@context": "https://schema.org/",
                     "@type": "Review",
-                    "reviewBody": "<CF: zhodnocení bonusu>",
+                    "reviewBody": "<CF: affiliate url>",
                     "datePublished": "<DATUM VYTVOŘENÍ RECENZE bonusu>",
                     "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE RECENZE bonusu>",
                     "sameAs": "<CF: url bonusu>",
                     "commentCount": "<Počet komentářů u review>",
                   "itemReviewed": {
                     "@type": "Organization",
-                    "name": "<název složný z typů bonusu a spojenýá pluskem+>",
+                    "name": "<název složný z typů bonusu a spojený pluskem +>",
                     "logo": "<CF: Logo společnosti od které je bonus>",
                     "description": "<CF: zhodnocení bonusu>"
                   },
