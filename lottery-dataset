@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "name":"Výsledky a pravidla loterie [lottery-name] od provozovatele [casino/provider-name]",
+  "description":"Dataset výsledků a pravidel loterie [lottery name] od provozovatele [casino/provider-name]. Data obsahují den slosování loterie, vylosovaná čísla a výši jackpotu, tabulku výher s částakami, počet výherců,  případné výherní kódy dopňkové hry a pravidla.",
+  "url": "https://vyhraj.cz/loterie/sportka/",
+  "keywords": ["[lottery name]", "Výsledky [lottery name]", "Aktuální výsledky [lottery name]", "Slosování [lottery-name]", "[lottery name] dnes", "[lottery name] výsledky", "[lottery name] výsledky dnes", "Pravidla [lottery name]"],
+  "creator": {
+    "@type": "Organization",
+    "name": "[casino/provider-name]",
+    "url": "[CF od recenze - Web URL]"
+  },  
+  "provider": {
+    "@type": "Organization",
+    "name": "🍀 Vyhraj.cz",
+    "url":"https:\/\/vyhraj.cz",
+    "logo":"https:\/\/vyhraj.cz\/wp-content\/uploads\/2023\/06\/logo.svg",
+    "foundingDate":"2011-06-14T14:31:48+0000"
+  }
+}
+</script>
+
+
+
+
