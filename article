@@ -24,3 +24,33 @@
   }
  }
 </script>
+
+-----------------
+
+// JEDEN AUTOR ČLÁNKU 
+"author": {
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>", //Pokud má jinak skipneme)
+  	 "description": "<Zde bio autora>" //Pokud má jinak skipneme)
+	 }, 
+
+// VÍCE AUTORŮ ČLÁNKU 
+"author": [
+	{
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>", //Pokud má jinak skipneme)
+   	"description": "<Zde bio autora>" //Pokud má jinak skipneme)
+	 },
+	{
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>", //Pokud má jinak skipneme)
+   	"description": "<Zde bio autora>" //Pokud má jinak skipneme)
+	 }
+], 
+
