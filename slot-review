@@ -49,7 +49,7 @@
     "worstRating": "0",
     "description": "Hodnocení poskytnuté autorem článku."
   },
-  "author": {
+  "author": { //Autorů může být i více viz poznámka pod čarou
     "@type": "Person",
     "name": "<JMÉNO PŘÍJMENÍ AUTORA>",
     "jobTitle": "<CF: POZICE>",
@@ -67,3 +67,36 @@
   }
 }
 </script>
+
+
+-----------------
+
+// JEDEN AUTOR bonusu 
+"author": {
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>", //Pokud má jinak skipneme
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+  	 "description": "<Zde bio autora>" //Pokud má jinak skipneme
+	 }, 
+
+// VÍCE AUTORŮ bonusu 
+"author": [
+	{
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+   	"description": "<Zde bio autora>", //Pokud má jinak skipneme
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>" //Pokud má jinak skipneme
+	 },
+	{
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+   	"description": "<Zde bio autora>", //Pokud má jinak skipneme
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>" //Pokud má jinak skipneme
+	 }
+], 
