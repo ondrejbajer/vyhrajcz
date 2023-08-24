@@ -19,6 +19,14 @@
     "@id": "<URL článku>"
   },
   "commentCount": "<POČET KOMENTÁŘŮ U ČLÁNKU>",
+  "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "<CF: UŽIVATELSKÉ HODNOCENÍ - CELKOVÉ>", //Máme občas čárky u desetiných čísel. Tak nahrazovat za tečky pro str. data prosím 99,3 -> 99.3
+      "bestRating": "100",
+      "worstRating": "0",
+      "ratingCount": "<CF: POČET UŽIVATELŮ, KTEŘÍ HODNOTILY>"
+      "description": "Aggregované hodnocení na základě zpětné vazby od uživatelů."
+    }
   "publisher": {
     "@type": "Organization",
     "name": "Vyhraj.cz",
