@@ -1,10 +1,10 @@
 <script type="application/ld+json">
 { "@context": "https://schema.org", 
- "@type": "NewsArticle",
+ "@type": "NewsArticle", //Nebo "Article" záleží na typu stránky a u článku na nastavení
  "headline": "<ARTICLE NAME>",
  "image": "<FEATURED IMAGE>",
  "datePublished": "DATUM PUBLIKOVÁNÍ ČLÁNKU>",
- "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE ČLÁNKU>",
+ "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE ČLÁNKU>", // případně pokud je, tak datum poslední kontroly faktů namísto data aktualizace!
  "author": {
 			"@type": "Person",
 			"name": "<Jméno Příjmení autora>",
@@ -12,7 +12,10 @@
 			"image": "<Zde bude image autora>", //Pokud má jinak skipneme)
    "description": "<Zde bio autora>" //Pokud má jinak skipneme)
 		              },  
-  "mainEntityOfPage": "<URL ČLÁNKU>",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "<URL článku>"
+  },
   "commentCount": "<POČET KOMENTÁŘŮ U ČLÁNKU>",
 "publisher": {
     "@type": "Organization",
