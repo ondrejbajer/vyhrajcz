@@ -1,6 +1,6 @@
 <script type="application/ld+json">
 { "@context": "https://schema.org", 
- "@type": "NewsArticle", //Nebo "Article" záleží na typu stránky a u článku na nastavení
+ "@type": "NewsArticle", //Nebo "Article" záleží na nastavení typu článku
  "headline": "<ARTICLE NAME>",
  "image": "<FEATURED IMAGE>",
  "datePublished": "DATUM PUBLIKOVÁNÍ ČLÁNKU>",
