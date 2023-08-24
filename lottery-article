@@ -1,0 +1,71 @@
+<script type="application/ld+json">
+{ "@context": "https://schema.org", 
+  "@type": "Article",
+  "headline": "<H1>",
+  "description": "<EXCERPTS / STRUČNÝ VÝPIS PŘÍSPĚVKU>",	
+  "image": "<FEATURED IMAGE>",
+  "datePublished": "DATUM PUBLIKOVÁNÍ LOTERIE>",
+  "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE LOTERIE>", // případně pokud je, tak datum poslední kontroly faktů namísto data aktualizace!
+  "author": {
+	"@type": "Person",
+	  "name": "<Jméno Příjmení autora>",
+	  "jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+    "description": "<ZBIO autora>", //Pokud má jinak skipneme
+	  "url": "<URL archiv page autora>",
+	  "image": "<Zde bude image autora>" //Pokud má jinak skipneme
+	},  
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "<URL LOTERIE>"
+  },
+  "commentCount": "<POČET KOMENTÁŘŮ U LOTERIE>",
+  "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "<CF: HRÁČSKÉ HODNOCENÍ - CELKOVÉ>", //Máme občas čárky u desetiných čísel. Tak nahrazovat za tečky pro str. data prosím 99,3 -> 99.3
+      "bestRating": "100",
+      "worstRating": "0",
+      "ratingCount": "<CF: POČET HRÁČŮ, KTEŘÍ HODNOTILY>"
+      "description": "Aggregované hodnocení na základě zpětné vazby od uživatelů."
+    }
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vyhraj.cz",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "<ZDE BUDE LOGO WEBU>"
+    }
+  }
+ }
+</script>
+
+-----------------
+
+// JEDEN AUTOR bonusu 
+"author": {
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>", //Pokud má jinak skipneme
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+  	 "description": "<Zde bio autora>" //Pokud má jinak skipneme
+	 }, 
+
+// VÍCE AUTORŮ bonusu 
+"author": [
+	{
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+   	"description": "<Zde bio autora>", //Pokud má jinak skipneme
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>" //Pokud má jinak skipneme
+	 },
+	{
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+   	"description": "<Zde bio autora>", //Pokud má jinak skipneme
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>" //Pokud má jinak skipneme
+	 }
+], 
