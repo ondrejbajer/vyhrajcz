@@ -2,6 +2,7 @@
 { "@context": "https://schema.org", 
   "@type": "NewsArticle", //Nebo "Article" záleží na nastavení typu článku
   "headline": "<ARTICLE NAME>",
+  "description": "<Excerpts / Stručný výpis příspěvku>",
   "image": "<FEATURED IMAGE>",
   "datePublished": "DATUM PUBLIKOVÁNÍ ČLÁNKU>",
   "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE ČLÁNKU>", // případně pokud je, tak datum poslední kontroly faktů namísto data aktualizace!
