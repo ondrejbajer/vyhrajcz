@@ -2,6 +2,7 @@
 { "@context": "https://schema.org", 
   "@type": "Article",
   "headline": "<H1>",
+  "description": "<CF: Popis bonusu>",	
   "image": "<IMAGE CASINA/PROVIDERA BONUSU>",
   "datePublished": "DATUM PUBLIKOVÁNÍ BONUSU>",
   "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE BONUSU>", // případně pokud je, tak datum poslední kontroly faktů namísto data aktualizace!
