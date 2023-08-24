@@ -1,23 +1,24 @@
 <script type="application/ld+json">
 { "@context": "https://schema.org", 
- "@type": "NewsArticle", //Nebo "Article" záleží na nastavení typu článku
- "headline": "<ARTICLE NAME>",
- "image": "<FEATURED IMAGE>",
- "datePublished": "DATUM PUBLIKOVÁNÍ ČLÁNKU>",
- "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE ČLÁNKU>", // případně pokud je, tak datum poslední kontroly faktů namísto data aktualizace!
- "author": {
-			"@type": "Person",
-			"name": "<Jméno Příjmení autora>",
-			"url": "<URL archiv page autora>",
-			"image": "<Zde bude image autora>", //Pokud má jinak skipneme)
-   "description": "<Zde bio autora>" //Pokud má jinak skipneme)
-		              },  
+  "@type": "NewsArticle", //Nebo "Article" záleží na nastavení typu článku
+  "headline": "<ARTICLE NAME>",
+  "image": "<FEATURED IMAGE>",
+  "datePublished": "DATUM PUBLIKOVÁNÍ ČLÁNKU>",
+  "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE ČLÁNKU>", // případně pokud je, tak datum poslední kontroly faktů namísto data aktualizace!
+  "author": {
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+   	"description": "<Zde bio autora>", //Pokud má jinak skipneme
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>" //Pokud má jinak skipneme
+	},  
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "<URL článku>"
   },
   "commentCount": "<POČET KOMENTÁŘŮ U ČLÁNKU>",
-"publisher": {
+  "publisher": {
     "@type": "Organization",
     "name": "Vyhraj.cz",
     "logo": {
@@ -35,8 +36,9 @@
 	"@type": "Person",
 	"name": "<Jméno Příjmení autora>",
 	"url": "<URL archiv page autora>",
-	"image": "<Zde bude image autora>", //Pokud má jinak skipneme)
-  	 "description": "<Zde bio autora>" //Pokud má jinak skipneme)
+	"image": "<Zde bude image autora>", //Pokud má jinak skipneme
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+  	 "description": "<Zde bio autora>" //Pokud má jinak skipneme
 	 }, 
 
 // VÍCE AUTORŮ ČLÁNKU 
@@ -44,16 +46,18 @@
 	{
 	"@type": "Person",
 	"name": "<Jméno Příjmení autora>",
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+   	"description": "<Zde bio autora>", //Pokud má jinak skipneme
 	"url": "<URL archiv page autora>",
-	"image": "<Zde bude image autora>", //Pokud má jinak skipneme)
-   	"description": "<Zde bio autora>" //Pokud má jinak skipneme)
+	"image": "<Zde bude image autora>" //Pokud má jinak skipneme
 	 },
 	{
 	"@type": "Person",
 	"name": "<Jméno Příjmení autora>",
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+   	"description": "<Zde bio autora>", //Pokud má jinak skipneme
 	"url": "<URL archiv page autora>",
-	"image": "<Zde bude image autora>", //Pokud má jinak skipneme)
-   	"description": "<Zde bio autora>" //Pokud má jinak skipneme)
+	"image": "<Zde bude image autora>" //Pokud má jinak skipneme
 	 }
 ], 
 
