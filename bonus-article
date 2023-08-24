@@ -1,0 +1,63 @@
+<script type="application/ld+json">
+{ "@context": "https://schema.org", 
+  "@type": "Article",
+  "headline": "<H1>",
+  "image": "<IMAGE CASINA/PROVIDERA BONUSU>",
+  "datePublished": "DATUM PUBLIKOVÁNÍ BONUSU>",
+  "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE BONUSU>", // případně pokud je, tak datum poslední kontroly faktů namísto data aktualizace!
+  "author": {
+	"@type": "Person",
+	  "name": "<Jméno Příjmení autora>",
+	  "jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+    "description": "<ZBIO autora>", //Pokud má jinak skipneme
+	  "url": "<URL archiv page autora>",
+	  "image": "<Zde bude image autora>" //Pokud má jinak skipneme
+	},  
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "<URL BONUSU>"
+  },
+  "commentCount": "<POČET KOMENTÁŘŮ U bonusu>",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vyhraj.cz",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "<ZDE BUDE LOGO WEBU>"
+    }
+  }
+ }
+</script>
+
+-----------------
+
+// JEDEN AUTOR bonusu 
+"author": {
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>", //Pokud má jinak skipneme
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+  	 "description": "<Zde bio autora>" //Pokud má jinak skipneme
+	 }, 
+
+// VÍCE AUTORŮ bonusu 
+"author": [
+	{
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+   	"description": "<Zde bio autora>", //Pokud má jinak skipneme
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>" //Pokud má jinak skipneme
+	 },
+	{
+	"@type": "Person",
+	"name": "<Jméno Příjmení autora>",
+	"jobTitle": "<CF: Pozice>", //Pokud má jinak skipneme
+   	"description": "<Zde bio autora>", //Pokud má jinak skipneme
+	"url": "<URL archiv page autora>",
+	"image": "<Zde bude image autora>" //Pokud má jinak skipneme
+	 }
+], 
+
