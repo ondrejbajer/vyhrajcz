@@ -1,0 +1,69 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Review",
+  "name": "Detail automatu a recenze <SLOT NAME>",
+  "reviewBody": "<CF: PEREX>",
+  "datePublished": "<DATUM VYTVOŘENÍ SLOTU>",
+  "dateModified": "<DATUM POSLEDNÍ AKTUALIZACE SLOTU>",
+  "itemReviewed": {
+    "@type": "VideoGame",
+    "name": "<SLOT NAME>",
+    "image": "<FEATURED IMAGE>",
+    "screenshot": "<CF: HLAVNÍ OBRÁZEK AUTOMATU>",
+    "genre": "Casino/Automat",
+    "gamePlatform": ["Libovolný internetový prohlížeč"],
+    "commentCount": "<POČET KOMENTÁŘŮ U REVIEW>",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "<URL ČLÁNKU>"
+    },
+    "video": {
+      "@type": "VideoObject",
+      "name": "Automat <SLOT NAME> od výrobce <SLOT VÝROBCE NÁZEV>",
+      "description": "Ukázka automatu <SLOT NAME> od výrobce <SLOT VÝROBCE NÁZEV>.",
+      "embedUrl": "https://www.youtube.com/embed/<ID/PARAMETR VIDEA>" //V ADMINU MÁME https://www.youtube.com/watch?v=SdZ0t858j_s parametr je vše za rovnítkem, tedy "SdZ0t858j_s"
+    },
+    "creator": {
+      "@type": "Organization",
+      "name": "<SLOT VÝROBCE NÁZEV>",
+      "description": "<DESCRIPTION POLE OD TAXONOMIE VÝROBCE>", //Pokud je prázdné tak skipujeme
+      "logo": {
+        "@type": "ImageObject",
+        "url": "<SLOT VÝROBCE LOXO OD TAXONOMIE>"
+      }
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "<CF: HRÁČSKÉ HODNOCENÍ - CELKOVÉ>", //Máme občas čárky u desetiných čísel. Tak nahrazovat za tečky pro str. data prosím 99,3 -> 99.3
+      "bestRating": "100",
+      "worstRating": "0",
+      "ratingCount": "<CF: POČET HRÁČŮ, KTEŘÍ HODNOTILY>",
+      "description": "Aggregované hodnocení na základě zpětné vazby od uživatelů."
+    }
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "<CF: HODNOCENÍ REDAKCE - CELKOVÉ>", //Máme občas čárky u desetiných čísel. Tak nahrazovat za tečky pro str. data prosím 99,3 -> 99.3
+    "bestRating": "100",
+    "worstRating": "0",
+    "description": "Hodnocení poskytnuté autorem článku."
+  },
+  "author": {
+    "@type": "Person",
+    "name": "<JMÉNO PŘÍJMENÍ AUTORA>",
+    "jobTitle": "<CF: POZICE>",
+    "description": "<ZDE BIO AUTORA>",
+    "url": "<URL ARCHIV PAGE AUTORA>",
+    "image": "<ZDE BUDE IMAGE AUTORA>"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Vyhraj.cz",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "<ZDE BUDE LOGO WEBU>"
+    }
+  }
+}
+</script>
