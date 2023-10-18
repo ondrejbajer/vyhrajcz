@@ -22,7 +22,9 @@
       "@type": "VideoObject",
       "name": "Automat <SLOT NAME> od výrobce <SLOT VÝROBCE NÁZEV>",
       "description": "Ukázka automatu <SLOT NAME> od výrobce <SLOT VÝROBCE NÁZEV>.",
-      "embedUrl": "https://www.youtube.com/embed/<ID/PARAMETR VIDEA>" //V ADMINU MÁME https://www.youtube.com/watch?v=SdZ0t858j_s parametr je vše za rovnítkem, tedy "SdZ0t858j_s"
+      "embedUrl": "https://www.youtube.com/embed/<ID PARAMETR VIDEA>" //V ADMINU MÁME https://www.youtube.com/watch?v=SdZ0t858j_s parametr je vše za rovnítkem, tedy "SdZ0t858j_s"
+      "thumbnailUrl": "https://img.youtube.com/vi/<ID PARAMETR VIDEA>/0.jpg" //V ADMINU MÁME https://www.youtube.com/watch?v=SdZ0t858j_s parametr je vše za rovnítkem, tedy "SdZ0t858j_s"
+      "uploadDate": "<DATUM VYTVOŘENÍ SLOTU>" //Datum publikace detailu automatu z WP. Ve formátu
     },
     "creator": {
       "@type": "Organization",
