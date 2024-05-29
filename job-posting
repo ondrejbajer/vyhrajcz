@@ -1,0 +1,32 @@
+<script type="application/ld+json">
+    {
+      "@context" : "https://schema.org/",
+      "@type" : "JobPosting",
+      "title" : "[TITLE]",
+      "description" : "[DESCRIPTION POZICE HTML KOD, TEN MAIN WYSIWIG]",
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "JobID",
+        "value": "[POST_ID]"
+      },
+      "datePosted" : "[PUBLICATION DATE]",
+      "employmentType" : "[VIZ BASECAMP Employment type]", //POKUD JE TO MULTISELECTm nůže být i pole v přípdě víc hodnot "employmentType": ["FULL_TIME", "CONTRACTOR"]
+      "hiringOrganization" : {
+        "@type" : "Organization",
+        "name" : "[WEB NAME Vyhraj.cz]",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "<WEB LOGO URL>"
+          }
+      },
+      "jobLocation": {
+      "@type": "Place",
+        "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lázně Bělohrad",
+        "postalCode": "50781",
+        "addressCountry": "CZ"
+        }
+      }
+    }
+</script>
